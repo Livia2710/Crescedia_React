@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../CSS/cadastro.css">
+
+</head>
+<body>
+
+  <div id="stars"></div>
+  <div id="stars2"></div>
+  <div id="stars3"></div>
+
+  <div class="parent">
+    <div class="child"></div>
+  </div>
+
+  <div class="section">
+
+    <div class="container">
+
+      <div class="row full-height justify-content-center">
+
+        <div class="col-12 text-center align-self-center py-5">
+
+          <div class="section pb-5 pt-5 pt-sm-2 text-center">
+
+            <h6 class="mb-0 pb-3"><span>Log In </span><span class="cadastro">Cadastro</span></h6>
+            <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+            <label for="reg-log"></label>
+
+            <div class="card-3d-wrap mx-auto">
+
+              <div class="card-3d-wrapper">
+
+                <div class="card-front">
+
+                  <div class="center-wrap">
+
+                    <div class="section text-center">
+                      <h4 class="mb-4 pb-3">Log In</h4>
+                      <div class="form-group">
+                          <input type="email" id="email" class="form-style" placeholder="Email">
+                          <i class="input-icon uil uil-at"></i>
+                      </div>
+                      <div class="form-group mt-2">
+                          <input type="password" id="senha" class="form-style" placeholder="Senha">
+                          <i class="input-icon uil uil-lock-alt"></i>
+                      </div>
+                      <button onclick="validarLogin()" class="btn mt-4">Login</button>
+                      <p class="mb-0 mt-4 text-center"><a href="#" class="link">Esqueceu a Senha?</a></p>
+                  </div>
+                      </div>
+                    </div>
+
+                <div class="card-back">
+
+                  <div class="center-wrap">
+                    <div class="section text-center">
+                      <h4 class="mb-3 pb-3 cadastro">Cadastro</h4>
+                      <div class="form-group">
+                        <input type="text" class="form-style" placeholder="Nome Completo">
+                        <i class="input-icon uil uil-user cadastro"></i>
+                      </div>	
+                      <div class="form-group mt-2">
+                        <input type="tel" class="form-style" placeholder="Número de Telefone">
+                        <i class="input-icon uil uil-phone cadastro"></i>
+                      </div>	
+                      <div class="form-group mt-2">
+                        <input type="email" class="form-style" placeholder="Email">
+                        <i class="input-icon uil uil-at cadastro"></i>
+                      </div>
+                      <div class="form-group mt-2">
+                        <input type="password" class="form-style" placeholder="Senha">
+                        <i class="input-icon uil uil-lock-alt cadastro"></i>
+                      </div>
+                      <a href="../index.html" class="btn mt-4 cadastro-bg">Registrar</a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+      </div>
+
+  </div>
+
+  <!-- JS de validação de login -->
+  <script>
+    function validarLogin() {
+        // Obter valores do email e senha
+        var email = document.getElementById("email").value;
+        var senha = document.getElementById("senha").value;
+
+        // Lista de usuários permitidos
+        var usuariosPermitidos = [
+            { email: "pedro@gmail.com", senha: "123" },
+            { email: "gabis@gmail.com", senha: "123" },
+            { email: "livia@gmail.com", senha: "123" },
+            { email: "victor@gmail.com", senha: "123" },
+            { email: "raphael@gmail.com", senha: "123" },
+            { email: "sophia@gmail.com", senha: "123" }
+        ];
+
+        // Verificar se o email e senha correspondem a um dos usuários permitidos
+        var usuarioValido = usuariosPermitidos.find(function(usuario) {
+            return usuario.email === email && usuario.senha === senha;
+        });
+
+        if (usuarioValido) {
+            // Redirecionar para a página de login
+            window.location.href = "../banco_de_dados/index.php";
+        } else {
+            // Exibir uma mensagem de erro (você pode personalizar essa mensagem conforme necessário)
+            alert("Email ou senha incorretos. Tente novamente.");
+        }
+    }
+</script>
+
+
+</body>
+</html>

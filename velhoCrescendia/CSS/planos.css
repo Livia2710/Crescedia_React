@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  
+  
+}
+  
+body {
+    max-width: 1519.2px;
+    background-color: #240140;
+}
+.ben {
+    font-family: 'Bebas Neue', sans-serif;
+  
+    padding-top: 75px;
+    margin-top: 75px;
+    text-align: center;
+    color:#fff;
+    font-weight: bolder;
+    font-size: 100px;
+}
+  
+.ben span{
+    font-family: 'Bebas Neue', sans-serif;
+  
+    color: #8137b3;
+  
+    animation: changeColor 5s infinite;
+}
+
+@-webkit-keyframes changeColor {
+    0%   {color: #8137b3;}
+    25%  {color: #cc21b2;}
+    50%  {color: #ff3b76;}
+    100% {color: #8137b3;}
+}
+
+.container .tipo{
+    font-family: 'Alfa Slab One', sans-serif;
+   
+
+}
+
+.container .preco{
+    font-size: small;    
+
+    margin-bottom: 0px;
+}
+.container .preco span{
+    font-size: medium;
+    font-weight: bold;
+}
+  
+  
+
+.btn {
+    background-color: #CD2840 !important;
+}
+.btn:hover {
+    background-color: #976df2 !important;
+    color: #171717 !important;
+    cursor: pointer !important;
+    transition: .5s !important;
+}
+
+#navbar i {
+    color: #240140; 
+}
+
+body{
+    background-color: #240140 !important;
+}
+
+main{
+    margin-top: 100px;
+}
+
+section{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.premium, .estudante, .familia{
+
+    background-color: #fff;
+
+    border: 7px solid rgb(163, 163, 163);
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 10px;
+
+    display: flex !important;
+    justify-content: space-between !important;
+
+    flex-direction: column;
+    margin-bottom: 7%;
+
+    
+
+}
+
+
+.btn-m{
+    position: relative;
+    width: 165px;
+    height: 62px;
+
+    cursor: pointer;
+
+    font-size: 17px;
+    border-radius: 1rem;
+    border: none;
+
+    font-weight: bold;
+    
+    color: #000;
+    background-color: #976df2;
+    transition: 0.5s;
+}
+
+.btn-m:hover{
+    background-color: #CD2840
+}
+
+
+@media(min-width:768px) {
+    form {
+      width: 500px;
+      display: flex !important;
+      justify-content: center !important;
+  
+    }
+}
+  
+@media(max-width:875x) {
+    .cres {
+        display: none;
+    }
+}
