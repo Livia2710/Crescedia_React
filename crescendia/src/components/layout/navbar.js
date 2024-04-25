@@ -1,10 +1,36 @@
-import React from 'react'
-import style from './navbar.css'
+import React, { Component } from 'react';
+import './navbar.css';
 
-const navbar = () => {
+class navbar extends Component {
+  state={clicked: false};
+  handelClick = () =>{
+    this.setState({clicked:!this.state.clicked})
+  }
+  render() {
+
+
   return (
-    <div>navbar</div>
-  )
+    <>
+    <nav>
+      <a href="" alt="Logo"></a>
+
+      <ul id='navbar'>
+        <li><a href="">Seu perfil</a></li>
+        <li><a href="">Biblioteca</a></li>
+        <li><a href="">Assinaturas</a></li>
+      </ul>
+
+      <div id='mobile' onClick={this.handelClick}>
+        <p id='bar' className={this.state.clicked ? "O": "X"}></p>
+    
+      </div>
+    </nav>
+
+  
+    </>
+  );
+}
+
 }
 
 export default navbar
