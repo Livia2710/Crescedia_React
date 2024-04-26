@@ -24,12 +24,12 @@ nav {
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    color: #fff;
+    color: #CD2840;
     transition: 0.3s ease-in-out;
 }
 
 #navbar li a:hover{
-    color: gray;
+    color: #976df2;
     cursor: pointer;
 }
 
@@ -37,8 +37,55 @@ nav {
     content: "";
     width: 30%;
     height: 2px;
-    background-color: gray;
+    background-color: #976df2;
     position: absolute;
     bottom: -4px;
     left: 20px;
+}
+
+#mobile{
+    display: none;
+}
+
+
+#mobile p {
+    color:#CD2840;
+    align-items: center;
+}
+
+/* _______________________________________ */
+/* Resposividade */
+
+@media screen and (max-width:769px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background-color: #262626;
+        box-shadow: 0 40px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: block;
+        
+    }
+
+    #mobile p {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+
 }

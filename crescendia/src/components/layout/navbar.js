@@ -53,7 +53,8 @@ class Navbar extends Component {
                     <img src="path_to_logo.png" alt="Logo" /> 
                 </a>
 
-                <ul id="navbar">
+                <ul id="navbar" 
+                className={this.state.clicked ? "#navbar active" : "navbar"}>
                     <li><a href="#">Seu perfil</a></li>
                     <li><a href="#">Biblioteca</a></li>
                     <li><a href="#">Assinaturas</a></li>
