@@ -1,5 +1,9 @@
 
-import Navbar from './components/layout/navbar.js'
+import Navbar from './components/layout/navbar.js';
+import Playlist_1 from './assets/Ouça_agora.png';
+import Playlist_2 from './assets/Frame 2.png';
+import Playlist_3 from './assets/Talvez voce goste.png'
+import Footer from './components/layout/footer.js';
 import './App.css';
 
 function App() {
@@ -26,15 +30,15 @@ function App() {
 
           {/* Imagens */}
           <div className="imgs">
-            <img src="" alt="" />
+            <img src={Playlist_1} alt="" />
           </div>
 
           <div className="imgs">
-            <img src="" alt="" />
+            <img src={Playlist_2} alt="" />
           </div>
 
           <div className="imgs">
-            <img src="" alt="" />
+            <img src={Playlist_3} alt="" />
           </div>
 
         </div>
@@ -52,7 +56,7 @@ function App() {
                 <img src='' className="capa"/>
               </div>
               <div className="info">
-                <span className='name'>Nome</span>
+                <h3 className='name'>Nome</h3>
               </div>
             </div>
           </div>
@@ -60,7 +64,7 @@ function App() {
 
 
 
-
+      <Footer/>
       </body>
     </div>
     

@@ -15,10 +15,11 @@ nav {
 }
 
 .Logo {
-    margin-top: 5px;
+    margin: 5px;
     width: 75px;
     height: 75px;
 }
+
 
 .burger-menu {
     height: 100%;
