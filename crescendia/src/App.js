@@ -1,6 +1,7 @@
 
 import Navbar from './components/layout/navbar.js'
 import './App.css';
+import Footer from './components/layout/footer.js'
 
 function App() {
 
@@ -63,7 +64,7 @@ function App() {
 
       </body>
     </div>
-    
+  
   );
 
 }

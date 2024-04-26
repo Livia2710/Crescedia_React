@@ -8,24 +8,18 @@ const footer = () => {
         <div className='row'>
 
           {/* colum 1*/}
-          <div className='col-nd-3 col-sn-6'>
-            <h4>Lorem ipsum</h4>
-            <ul className="list-unstyled"> 
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-            </ul>
+          <div className='logo'>
+           
           </div>
 
           {/* colum 2*/}
-          <div className='col-nd-3 col-sn-6'>
-            <h4>Lorem ipsum</h4>
+          <div className='plataforma'>
+            <h4>Plataformas</h4>
             <ul className="list-unstyled"> 
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
+              <li>App</li>
+              <li>Desktop</li>
+              <li>Mobile</li>
+              
             </ul>
           </div>
 
