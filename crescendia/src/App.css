@@ -76,20 +76,20 @@ span{
 /* ________________________________________ */
 /* Musicas */
 
-.container {
+#container {
     background-color: blueviolet;
     max-width: 90vw;  
    
    
 }
 
-.container .carousel {
+#container .carousel {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
 }
 
-.container .carousel .item {
+#container .carousel .item {
     background-color: violet;
     margin: 10px;
     padding: 10px;
@@ -98,20 +98,20 @@ span{
 
 }
 
-.container .carousel .item .image img{
+#container .carousel .item .image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.container .carousel .item .info h3{
+#container .carousel .item .info h3{
     display: block;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
 }
 
-.container .carousel .item .info .name{
+#container .carousel .item .info .name{
    font-size: 1.2rem;
    font-weight: bold;
    margin: 10px 0;
