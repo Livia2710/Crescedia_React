@@ -5,7 +5,7 @@ import Navbar from './navbar'
 import Footer from './footer'
 
 
-const playlist = () => {
+const Playlist = () => {
     return(
     
 

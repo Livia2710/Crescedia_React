@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Logo from '../../assets/logo.png'
-// import './navbar.css'
+import './navbar.css'
 import Playlist from '../../components/layout/playlist'
 
 const Navbar = () => {
