@@ -24,24 +24,22 @@ const footer = () => {
           </div>
 
           {/* colum 3*/}
-          <div className='col-nd-3 col-sn-6'>
-            <h4>Lorem ipsum</h4>
+          <div className='informacoes'>
+            <h4>Informações</h4>
             <ul className="list-unstyled"> 
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
+              <li>Contatos</li>
+              <li>Perguntas Frequentes</li>
+              <li>Termos de Serviços</li>
             </ul>
           </div>
 
           {/* colum 4*/}
-          <div className='col-nd-3 col-sn-6'>
-            <h4>Lorem ipsum</h4>
+          <div className='inscricao'>
+            <h4>Inscreva-se</h4>
             <ul className="list-unstyled"> 
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
+              <li>Coloque seu e-mail para receber notificações</li>
+              <input className="email" type="email" />
+           
             </ul>
           </div>
         </div>
