@@ -1,6 +1,8 @@
 import React, {useState} from "react";
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.png';
+import Palavra from '../../assets/crescendia_palavra.png';
 import './navbar.css'
+import Playlist from '../../components/layout/playlist'
 
 const Navbar = () => {
 
@@ -28,6 +30,7 @@ const Navbar = () => {
 
                 <div className="logo">
                    <img src={Logo} className="Logo"/>
+                   <img src={Palavra} className="Palavra" />
                 </div>
                 <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger_class} ></div>
@@ -41,7 +44,7 @@ const Navbar = () => {
                 <ul className="toggle">
                     <li ><a href="#" className="perfil">Usuario</a></li>
                     <li><a href="#">Planos</a></li>
-                    <li><a href="">Playlists</a></li>
+                    <li><a href={Playlist}>Playlists</a></li>
                 </ul>
 
             </div>

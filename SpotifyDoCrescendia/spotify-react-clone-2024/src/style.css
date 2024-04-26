@@ -1083,14 +1083,15 @@ html, body, #root {
   background-color: #ffffff33;
 }
 
+/* Cor barra de música (backgroung) */
 .bg-footer {
   --tw-bg-opacity: 1;
-  background-color: rgb(24 24 24 / var(--tw-bg-opacity));
+  background-color: rgb(143, 20, 43/ var(--tw-bg-opacity));
 }
 
 .bg-menubg {
   --tw-bg-opacity: 1;
-  background-color: rgb(62 62 62 / var(--tw-bg-opacity));
+  background-color: rgb(62, 62, 62 / var(--tw-bg-opacity));
 }
 
 .bg-orangebox {
@@ -1100,7 +1101,7 @@ html, body, #root {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(29 185 84 / var(--tw-bg-opacity));
+  background-color: rgb(183, 17, 41 / var(--tw-bg-opacity));
 }
 
 .bg-purplebox {
