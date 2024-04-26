@@ -10,8 +10,14 @@ nav {
     background-color: #262626;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 1em;
+}
+
+.Logo {
+    margin-top: 5px;
+    width: 75px;
+    height: 75px;
 }
 
 .burger-menu {

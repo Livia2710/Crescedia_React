@@ -1,8 +1,9 @@
-import logo from './logo.svg';
+
 import Navbar from './components/layout/navbar.js'
 import './App.css';
 
 function App() {
+
   return (
 
     <div className="App">
@@ -12,8 +13,12 @@ function App() {
 
         {/* Texto de Bem-Vindo */}
         <section>
-          <h3><span>Seja Bem-Vindo</span></h3>
+          <h1>SEJA BEM-VINDO 
+          <br/>AO
+          <span> CRESCENDIA</span>
+          </h1>
         </section>
+        {/* ________________________________________________ */}
 
         {/* Playlists */}
 
@@ -31,12 +36,32 @@ function App() {
           <div className="imgs">
             <img src="" alt="" />
           </div>
-          
+
         </div>
+
+        {/* _____________________________________________________________ */}
+        {/* Musicas */}
+        <div className="container">
+          <div className="titulo">
+          <h2>Músicas</h2>
+          </div>
+          {/* Carousel */}
+          <div className="carousel">
+            <div className="item">
+              <div className="image">
+                <img src='' className="capa"/>
+              </div>
+              <div className="info">
+                <span className='name'>Nome</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
       </body>
-
-
-      
     </div>
     
   );
