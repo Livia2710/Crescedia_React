@@ -6,6 +6,7 @@ import Playlist_3 from './assets/Talvez voce goste.png'
 import Play from './assets/play.png'
 import Footer from './components/layout/footer.js';
 import './App.css';
+import Footer from './components/layout/footer.js'
 
 function App() {
 
@@ -74,7 +75,8 @@ function App() {
       <Footer/>
       </body>
     </div>
-    
+
+ 
   );
 
 }
