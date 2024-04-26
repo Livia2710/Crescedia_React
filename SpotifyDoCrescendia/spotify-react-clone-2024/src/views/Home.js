@@ -196,7 +196,7 @@ export default function Home() {
       </div>
       </div>
         <div className='flex justify-between items-end mb-4'>
-        <PlayBox title={'ErenYalcn İçin Derlendi'}/>
+        <PlayBox title={'Recomendações para você'}/>
         <PlayBox see />
         </div>
         <div className='grid grid-cols-5 gap-x-6'>
@@ -204,7 +204,7 @@ export default function Home() {
                 
         </div>
         <div className='flex justify-between items-end mb-4 mt-6'>
-        <PlayBox title={'Türkçe pop kadın yıldızlar'}/>
+        <PlayBox title={'Tocados recentemente' }/>
         <PlayBox see />
         </div>
         <div className='grid grid-cols-5 gap-x-6 mb-8'>
@@ -223,7 +223,7 @@ export default function Home() {
                 ))}
         </div>
         <div className='flex justify-between items-end mb-4 mt-6'>
-        <PlayBox title={'Türkçe pop kadın yıldızlar'}/>
+        <PlayBox title={'Artistas'}/>
         <PlayBox see />
         </div>
         <div className='grid grid-cols-5 gap-x-6 mb-8'>
