@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Logo from './logo.svg';
 import Navbar from './components/layout/navbar.js'
 import './App.css';
 
@@ -31,7 +31,7 @@ function App() {
           <div className="imgs">
             <img src="" alt="" />
           </div>
-          
+
         </div>
       </body>
 
