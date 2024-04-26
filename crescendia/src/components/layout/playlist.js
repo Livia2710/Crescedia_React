@@ -19,3 +19,5 @@ const playlist = () => {
         
     );
 }
+
+export default Playlist
