@@ -60,10 +60,10 @@ function App() {
         </div>
 
 
-
-
+      <Footer />
       </body>
     </div>
+
  
   );
 
