@@ -1,12 +1,8 @@
 import React from 'react'
 
-const login = () => {
+function login() {
   return (
-    <div>
-
-    
-
-    </div>
+    <h1>Teste</h1>
   )
 }
 
