@@ -9,6 +9,9 @@ const footer = () => {
 
           {/* colum 1*/}
           <div className='logo'>
+             <img src='../assets/nome.png' /> 
+             
+            
            
           </div>
 
