@@ -7,10 +7,16 @@ import Decadente from '../public/card-playlist.png'
 
 import Foto from '../public/card-intg1.png'
 // import Foto2 from '../public/card-intg2.png'
-// import Foto3 from '../public/card-intg3.png'
+import Foto3 from '../public/card-intg3.png'
 import Foto4 from '../public/card-intg4.png'
 import Foto5 from '../public/card-intg5.png'
 import Foto6 from '../public/card-intg6.png'
+
+import Mix from '../public/card-mix1.png'
+import Mix1 from '../public/card-mix2.png'
+import Mix2 from '../public/card-mix3.png'
+import Mix3 from '../public/card-mix4.png'
+
 
 import { NavLink } from 'react-router-dom';
 import {Icon} from 'components/Icons';
@@ -23,7 +29,7 @@ export default function Home() {
   const items =[
     {
       id: 1,
-      title: 'Farketmeden',
+      title: 'Mix 1',
       artist: 'Eren Yalçın',
       image: 'https://i.scdn.co/image/ab67616d00001e02e9c9fc7a8155861f8db6b28f',
       src: 'https://freesound.org/data/previews/617/617443_1648170-lq.mp3'
@@ -176,7 +182,7 @@ export default function Home() {
         
         
         <div className='flex items-center gap-x-4 bg-dortbox group relative hover:bg-dortboxact rounded'>
-          <img className='w-[5rem] h-[5rem]' //src={Foto3} 
+          <img className='w-[5rem] h-[5rem]' src={Foto3} 
           />
           <h4 className='text-[16px] font-bold p-4'>Pedro Tanaka</h4>
           <button className='w-12 h-12 bg-primary absolute right-2 transition-opacity rounded-full flex items-center shadow-2xl justify-center opacity-0 group-hover:opacity-100 group-active:opacity-100'>
