@@ -9,6 +9,7 @@ module.exports = {
         '150':'150deg'
       },
       colors:{
+        // colors: '#B71129', //definindo cor vermelha para botão de play
         backcolor: '#121212',
         primary: '#1db954',
         active: '#282828',
@@ -28,7 +29,7 @@ module.exports = {
         gra3:'#501FF2',
         gra4:'#867FE7',
         gribottom: '#a7a7a7',
-        tartist: '#575757'
+        tartist: '#575757',
 
       }
     },
