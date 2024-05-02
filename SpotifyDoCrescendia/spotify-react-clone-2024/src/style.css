@@ -1101,7 +1101,7 @@ html, body, #root {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(183, 17, 41 / var(--tw-bg-opacity));
+  background-color: rgb(183, 17, 41 / var(--tw-bg-opacity)); /*Cor-barra de play*/
 }
 
 .bg-purplebox {
