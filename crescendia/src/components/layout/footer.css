@@ -31,6 +31,17 @@
     font-size: 20px;
   }
 
+
+/* Estilos para os links */
+a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+a:hover {
+  color: #B71129;
+}
   .list-unstyled{
     list-style: none;
     margin-top: 10px;
@@ -48,6 +59,7 @@
   .column ul li {
     margin-bottom: 5px;
     list-style-type: none;
+   
   }
   
   .email {
@@ -72,4 +84,6 @@
   .footer-bottom p {
     margin: 0;
   }
+
+  
   
