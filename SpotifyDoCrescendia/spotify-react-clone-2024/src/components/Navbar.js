@@ -1,5 +1,4 @@
 import Navigation from './Navbar/Navigation';
-import User from './Navbar/User';
 import {useRouteMatch} from "react-router-dom";
 import TopSearch from './Navbar/TopSearch';
 import LibFilter from './Navbar/LibFilter';
@@ -17,7 +16,6 @@ export default function Navbar() {
         <Navigation />
         {searchRoute &&(<TopSearch /> )}
         {libRoute &&(<LibFilter /> )}
-        <User />
       </nav>
     )
   }
