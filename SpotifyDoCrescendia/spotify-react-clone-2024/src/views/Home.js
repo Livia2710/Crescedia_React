@@ -22,10 +22,11 @@ import Mix4 from '../public/card-mix5.png'
 import { NavLink } from 'react-router-dom';
 import {Icon} from 'components/Icons';
 import Song from 'components/Song';
+import Header from 'components/Header';
+
 
 
 export default function Home() {
-
 
   const items =[
     {
@@ -140,6 +141,7 @@ export default function Home() {
 
 
   return (
+    
     <div>
       <div>
       <h3 className='text-3xl text-white font-bold tracking-tight mb-6'>Bem - Vindo!</h3>
